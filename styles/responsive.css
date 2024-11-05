@@ -1,0 +1,55 @@
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+    .logo img {
+        width: 160px;
+    }
+    .menu ul li{
+        display: none;
+    }
+    .menu ul::after{
+        content: '\f0c9';
+        font-weight: 900;
+        font-family: 'Font Awesome 5 Free';
+        font-size: 30px;
+    }
+    .banner-content {
+        width: 90%;
+    }
+    .travel-banner-form {
+        width: 80%;
+    }
+    .travel-banner-form form {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .banner-content h1{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .banner-content p {
+        font-size: 16px;
+        line-height: 29px;
+        margin-bottom: 27px;
+    }
+    .travel-banner-form form .btn-primary {
+        padding: 12px 0;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .container {
+        width: 85%;
+    }
+    .banner-content h1 {
+        color: white;
+        font-size: 45px;
+        font-weight: 700;
+        margin-bottom: 14px;
+    }
+    .banner-content {
+        width: 70%;
+    }
+    .travel-banner-form form {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
