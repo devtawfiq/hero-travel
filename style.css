@@ -17,6 +17,21 @@ img {
 .btn-primary-padding{
 	padding: 10px 12px;
 }
+.title-box {
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.title-box h1 {
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.title-box p {
+	font-size: 16px;
+	line-height: 26px;
+}
 /* main style */
 /* Header Section */
 header {
@@ -152,4 +167,41 @@ header {
 	margin-right: 13px;
 	position: relative;
 	top: -13px;
+}
+/* service SEction */
+.service-section{
+	padding: 70px 0;
+}
+.service-box-wrap{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+.service-box {
+	width: 45%;
+	background-color: rgba(251, 181, 99, 5%);
+	padding: 30px;
+	border: 2px solid #feedd9;
+	border-radius: 10px;
+}
+.service-box-two{
+	background-color: #f4fdff;
+	border: 2px solid #cbf4fd;
+}
+.service-box-tree {
+	margin: auto;
+	background-color: #fef6f6;
+	border: 2px solid #fad2d2;
+}
+.service-box img{
+	margin-bottom: 15px;
+}
+.service-box h2 {
+	font-size: 24px;
+	margin: 12px 0;
+	color: #131313;
+}
+.service-box p{
+	font-size: 16px;
+	line-height: 26px;
 }
