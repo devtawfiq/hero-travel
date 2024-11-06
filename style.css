@@ -4,12 +4,18 @@
     box-sizing: border-box;
     font-family: "Mulish", serif;
 }
+img {
+	max-width: 100%;
+}
 :root{
     --primary-color: #FF5400;
 }
 .container{
     width: 70%;
     margin: auto;
+}
+.btn-primary-padding{
+	padding: 10px 12px;
 }
 /* main style */
 /* Header Section */
@@ -101,3 +107,49 @@ header {
 	margin-right: 10px;
     outline: none;
 } */
+/* Our Popular Tours */
+.our-tour-plan-section {
+	padding: 70px 0;
+}
+.our-tour-wrap {
+	display: flex;
+	gap: 30px;
+	align-items: center;
+}
+.our-tour-content h1 {
+	font-size: 40px;
+	margin-bottom: 29px;
+}
+.our-tour-content ul{
+	list-style: none;
+}
+.our-tour-content ul li {
+	display: flex;
+	align-items: center;
+	margin-bottom: 16px;
+}
+.list-content {
+	font-size: 16px;
+	line-height: 27px;
+}
+.our-tour-content p {
+	font-size: 16px;
+	line-height: 26px;
+	margin-bottom: 20px;
+}
+.our-tour-content {
+	width: 55%;
+}
+.our-tour-image {
+	width: 45%;
+	text-align: right;
+}
+.dot {
+	width: 5px;
+	height: 5px;
+	background: red;
+	border-radius: 50%;
+	margin-right: 13px;
+	position: relative;
+	top: -13px;
+}

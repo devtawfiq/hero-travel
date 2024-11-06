@@ -35,6 +35,24 @@
     .travel-banner-form form .btn-primary {
         padding: 12px 0;
     }
+    /*  */
+    .our-tour-wrap {
+        flex-direction: column;
+    }
+    .our-tour-content {
+        width: 100%;
+    }
+    .our-tour-image {
+        width: 100%;
+    }
+    .dot {
+        width: 13px;
+        top: -26px;
+    }
+    .our-tour-content h1 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
 }
 @media screen and (min-width: 576px) and (max-width: 992px) {
     .container {
