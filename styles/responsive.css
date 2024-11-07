@@ -53,6 +53,24 @@
         font-size: 32px;
         margin-bottom: 20px;
     }
+    /* travel country section */
+    .img-box-wrap-one {
+        grid-template-columns: 1fr;
+    }
+    .img-box-wrap-two {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .img-box-wrap-tree {
+        grid-template-columns: 1fr;
+    }
+    .img-4 {
+        /* background: linear-gradient(rgba(0, 0, 0, 0.212), rgba(0, 0, 0, 0.212)), url(img/4.png) no-repeat center center !important; */
+        grid-column: 1;
+    }
+    .img-6{
+        
+    }
+    .img-7{}
     /* Service section */
     .service-section {
         padding: 0 0 30px 0;
@@ -86,6 +104,8 @@
     .travel-banner-form form {
         grid-template-columns: repeat(2, 1fr);
     }
+    /* travel country section */
+
     /* service section */
     .title-box {
         width: 70%;
