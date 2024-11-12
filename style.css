@@ -9,6 +9,7 @@ img {
 }
 :root{
     --primary-color: #FF5400;
+	--secondary-color: #5A5A5D;
 }
 .container{
     width: 70%;
@@ -261,4 +262,68 @@ header {
 	font-size: 16px;
 	line-height: 26px;
 }
-/*  */
+/* Book now section */
+
+.book-now-section {
+	padding: 50px 0 100px 0;
+}
+.book-now-box-wrap {
+	background: url(./img/Group\ 39.png) no-repeat center center;
+	background-size: cover;
+	padding: 50px;
+	border-radius: 16px;
+	margin-bottom: 30px;
+}
+.bnbw-two{
+	background: url(./img/Group\ 40.png) no-repeat center center;
+	background-size: cover;
+}
+.bnbw-two .book-now-boxs {
+	margin-left: 0;
+}
+.book-now-boxs {
+	width: 50%;
+	background: rgba(255, 255, 255, 0.80);
+	padding: 60px 60px;
+	border-radius: 16px;
+	margin-left: auto;
+	border: 2px solid #fff;
+}
+.book-now-icon {
+	width: 75%;
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.book-now-icon span{
+	color: var(--secondary-color);
+}
+.book-now-icon span i {
+	color: var(--primary-color);
+	display: inline-block;
+	margin-right: 5px;
+}
+.book-now-box-content h2 {
+	font-size: 24px;
+	font-weight: 800;
+	margin-bottom: 20px;
+}
+.book-now-box-content p {
+	line-height: 28px;
+	font-size: 16px;
+	color: var(--secondary-color);
+}
+.book-now-box-content h3{
+	font-size: 20px;
+	font-weight: 800;
+	color: var(--primary-color);
+	margin: 20px 0;
+}
+.book-now-btn-bottom {
+	text-align: center;
+}
+.book-now-btn-bottom .btn-primary-padding {
+	padding: 17px 30px;
+	font-weight: 500;
+}
